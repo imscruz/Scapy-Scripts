@@ -1,12 +1,8 @@
 import os
 import time
 from scapy.all import ARP, Ether, srp, send
-
-# Terminali temizleme fonksiyonu
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
-
-# Banner
 def show_banner():
     banner = r"""
        _____ ____________________    ___________________________   ________  ___________
@@ -20,6 +16,14 @@ def show_banner():
                    DO NOT FORGET THIS SCRIPT ONLY WORK ON LOCAL NETWORK [!]
     """
     print(banner)
+
+#\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+#  U ARE SPOOFED TOO WİTH THİS SCRİPT ❗    |
+#  THIS SCRIPT MADE BY imscruz              |
+#  STAR MY REPO Pls imscruz/Scapy-Scripts   |
+#///////////////////////////////////////////
+
+
 
 def scan_network(network_range):
     print(f"[+] {network_range} SCAN NETWROOK.\n")
