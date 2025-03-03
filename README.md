@@ -3,5 +3,27 @@ i made basically scripts for SCAPY https://scapy.readthedocs.io/en/latest/instal
 
 # Hello i just want to learn hack thing on local network so i just basically im learning scapy right now 
 i puplish my scapy scripts for free and archive my history
+# TUTOREAL
+" pip install scapy " for work
+and if u get error just update pip and install the other modules 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 *hayat sasırtır zaten* 😅
