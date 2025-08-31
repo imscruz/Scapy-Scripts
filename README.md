@@ -1,31 +1,24 @@
-# Scapy Scripts made by imscruz
+# 🐍 Scapy Scripts: Network Security & Packet Analysis
 
-In this repo, there are various network security and packet analysis scripts that I have created using **Scapy**. Scapy is a powerful network packet processing library based on Python and is highly flexible for low-level network programming.
+Welcome to the **Scapy Scripts** repository! This collection features a variety of network security and packet analysis tools I've built using **Scapy**, a powerful and versatile Python-based library for low-level network programming. These scripts are designed to help you understand, analyze, and manipulate network packets with ease.
 
-## 🚀 Starting
+-----
 
-For use this scripts you have to follow the steps:
+## ✨ Features
 
-### Needed [Requirements]
-- Python 3.x
-- Scapy
-- (Optionel) Wireshark & tcpdump
+-   **Packet Sniffing**: Capture and inspect live network traffic.
+-   **ARP Spoofing**: Perform ARP cache poisoning attacks on a network.
+-   **DNS Analysis**: Listen for and analyze DNS queries and responses.
+-   **Python-based**: Easily modifiable and extensible for your specific needs.
 
-### Downland [Setup Scapy]
-Scapy'yi yüklemek için aşağıdaki komutu çalıştırabilirsiniz:
-```bash
-pip install scapy
-```
-Start Scapy TERMINAL mode (Optionel)  :
-```bash
-python -m Scapy
-```
+-----
 
-## 📂 İçerik [REPO]
-In this repo:
+## 🚀 Getting Started
 
-- **packetsniffer.py** → Sniffing TCP packets 
-- **arpspoof.py** → ARP Spoof for one target
-- **arpspoofwhole.py** → ARP Spoof for whole localnetwork
-- **dnslistenning.py** → Sniff DNS packets on 53 port
-- **NewComing** → NeXT uPDATE
+### Prerequisites
+
+To get these scripts up and running, you'll need the following:
+
+-   **Python 3.x**: The scripting language these tools are built on.
+-   **Scapy**: The core library for packet manipulation.
+-   **(Optional) Wireshark & tcpdump**: Useful for visualizing and verifying the packets sniffed or created by the scripts.
